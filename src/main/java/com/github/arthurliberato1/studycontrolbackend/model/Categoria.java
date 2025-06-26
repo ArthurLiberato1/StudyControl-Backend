@@ -1,14 +1,11 @@
 package com.github.arthurliberato1.studycontrolbackend.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table
 public class Categoria {
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column
     private Long id;

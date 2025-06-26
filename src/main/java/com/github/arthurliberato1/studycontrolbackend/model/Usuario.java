@@ -1,15 +1,13 @@
 package com.github.arthurliberato1.studycontrolbackend.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 import java.util.Date;
 
 @Entity
 @Table
 public class Usuario {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column
     private Long id;
