@@ -41,4 +41,5 @@ public class EstudoController {
     }
 
     //fazer buscas mais elaboradas e adicionar verificações nos endpoints
+    //buscar estudos pelo título
 }
